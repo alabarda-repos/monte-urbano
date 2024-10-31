@@ -11,7 +11,7 @@ export const GaleryCarousel = () => {
       options={{
         type: "fade",
         pagination: true,
-        arrows: false,
+        arrows: true,
         rewind: true,
         autoplay: true,
         interval: 4500,
@@ -19,7 +19,7 @@ export const GaleryCarousel = () => {
         pauseOnHover: false,
         pauseOnFocus: false,
       }}
-      className="w-full p-0"
+      className="z-[5] w-full p-0"
     >
       <SplideSlide>
         <div className="flex w-full">

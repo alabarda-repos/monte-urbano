@@ -10,6 +10,7 @@ export const ClientCarousel = () => {
       aria-label="Clientes Monte Urbano"
       options={{
         perPage: 4.5,
+        perMove: 1,
         pauseOnHover: true,
         pagination: false,
         autoplay: true,
@@ -28,11 +29,68 @@ export const ClientCarousel = () => {
           },
         },
       }}
-      className="w-full min-w-[60vw] max-w-[1100px] p-0"
+      className="arrows-out w-full min-w-[60vw] max-w-[1100px] p-0"
     >
       <SplideSlide>
         <Image
           src={"/images/clients/ADN.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+
+      <SplideSlide>
+        <Image
+          src={"/images/clients/GRUPOPLANO.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src={"/images/clients/GRUPOCEM.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src={"/images/clients/EMBRAPLAN.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src={"/images/clients/LOTTER.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src={"/images/clients/NG.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src={"/images/clients/VISTA.png"}
+          width={200}
+          height={200}
+          alt="client-placeholder"
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src={"/images/clients/RODRIGUESPENTEADO.png"}
           width={200}
           height={200}
           alt="client-placeholder"

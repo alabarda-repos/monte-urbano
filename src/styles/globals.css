@@ -18,23 +18,10 @@ body {
   align-items: center;
 }
 
-.splide__arrow--prev {
+.arrows-out .splide__arrow--prev {
   left: -50px !important; /* Ajuste a posição da seta anterior */
 }
 
-.splide__arrow--next {
+.arrows-out .splide__arrow--next {
   right: -50px !important; /* Ajuste a posição da seta próxima */
 }
-
-/* .splide__track {
-  position: relative;
-}
-
-.splide__track::after {
-  height: 100%;
-  width: 1px;
-  box-shadow: 10px 0 5px -2px #888;
-  position: absolute;
-  top: 0;
-  right: 0;
-} */

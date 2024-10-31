@@ -34,8 +34,8 @@ const Orcamento: NextPage = () => {
                 {" "}
                 Entre em contato e
               </div>
-              <div className="ml-0 text-4xl font-semibold tracking-wider text-[#E9F2F9] md:text-5xl lg:ml-auto lg:text-7xl">
-                garanta um futuro sustentáve
+              <div className="ml-0 text-center text-4xl font-semibold tracking-wider text-[#E9F2F9] md:text-5xl lg:ml-auto lg:text-start lg:text-7xl">
+                garanta um futuro sustentável
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Orcamento: NextPage = () => {
             alt="mountains"
             width={1920}
             height={1050}
-            className="absolute left-[0x] top-[-45%] z-[1] w-full opacity-80"
+            className="absolute left-[0x] top-[-35%] z-[1] w-full opacity-80"
           />
           <div className="relative z-[2] h-full w-full">
             <div className="container mx-auto flex max-w-[90vw] flex-col py-20 lg:max-w-[1240px]">

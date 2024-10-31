@@ -69,10 +69,10 @@ const Index: NextPage = () => {
             <div className=" mt-6 grid grid-cols-1 items-start gap-16 lg:grid-cols-3">
               <div className="flex flex-col items-center justify-center">
                 <Image
-                  src={"/gif/MU_CONSTRUINDO.gif"}
+                  src={"/images/svg/iconmonstr-construction-13.svg"}
                   alt="MU_CONSTRUINDO"
-                  width={180}
-                  height={180}
+                  width={120}
+                  height={120}
                   className=""
                 />
                 <div className="my-4 text-2xl font-semibold tracking-tight">
@@ -89,10 +89,10 @@ const Index: NextPage = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <Image
-                  src={"/gif/MU_FUTURO.gif"}
+                  src={"/images/svg/iconmonstr-globe-5.svg"}
                   alt="MU_FUTURO"
-                  width={180}
-                  height={180}
+                  width={120}
+                  height={120}
                   className=""
                 />
                 <div className="my-4 text-2xl font-semibold tracking-tight">
@@ -109,10 +109,10 @@ const Index: NextPage = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <Image
-                  src={"/gif/MU_ECO.gif"}
+                  src={"/images/svg/iconmonstr-leaf-1.svg"}
                   alt="MU_ECO"
-                  width={180}
-                  height={180}
+                  width={120}
+                  height={120}
                   className=""
                 />
                 <div className="my-4 text-2xl font-semibold tracking-tight">

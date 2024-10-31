@@ -22,7 +22,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           className="animate-pulse rounded-full p-1 text-emerald-500"
           onClick={() => {
             window.open(
-              "https://api.whatsapp.com/send?phone=5516997307031",
+              "https://api.whatsapp.com/send?phone=16993731717",
               "_blank",
             );
           }}

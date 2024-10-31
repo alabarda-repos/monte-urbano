@@ -66,7 +66,7 @@ export const environmentalServices = [
     body: "Elaboramos laudos técnicos de ruído para avaliar a conformidade com os padrões regulatórios e minimizar impactos sonoros adversos em ambientes urbanos e naturais.",
   },
   {
-    title: "Laudo de Verificação de Indícios de Contaminação (Caixa)",
+    title: "Laudo de Verificação de Indícios de Contaminação (Caixa/CETESB)",
     body: "Realizamos laudos detalhados para verificar indícios de contaminação em propriedades, assegurando a segurança ambiental e a conformidade com os padrões de saúde pública.",
   },
   {
@@ -158,6 +158,7 @@ export const FullServiceCarousel = () => {
           gap: "2rem",
           type: "loop",
           pagination: true,
+          arrows: true,
           breakpoints: {
             1024: {
               perPage: 2.5,

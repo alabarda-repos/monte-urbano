@@ -5,7 +5,7 @@ import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
 export const ServiceCarousel = () => {
   return (
-    <div className="relative w-full">
+    <div className="arrows-out relative w-full">
       <Splide
         aria-label="Serviços Monte Urbano"
         options={{
@@ -80,7 +80,7 @@ export const ServiceCarousel = () => {
         <SplideSlide>
           <div className="flex h-full w-full flex-col bg-white p-6">
             <div className="mb-6 text-center text-2xl font-semibold">
-              Avaliação e Remediação de Passivos Ambientai
+              Avaliação e Remediação de Passivos Ambientais
             </div>
             <div className="text-justify text-sm">
               Identificamos, avaliamos e remediemos passivos ambientais,

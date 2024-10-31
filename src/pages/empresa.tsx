@@ -126,7 +126,7 @@ const Empresa: NextPage = () => {
               options={{
                 type: "fade",
                 pagination: true,
-                arrows: false,
+                arrows: true,
                 rewind: true,
                 autoplay: true,
                 interval: 4500,
@@ -134,7 +134,7 @@ const Empresa: NextPage = () => {
                 pauseOnHover: true,
                 pauseOnFocus: false,
               }}
-              className="relative w-full min-w-[60vw] max-w-[1200px] p-0"
+              className="arrows-out relative w-full min-w-[60vw] max-w-[1200px] p-0"
             >
               <SplideSlide>
                 <div className="grid grid-cols-1 items-center justify-center gap-16 lg:grid-cols-2 ">

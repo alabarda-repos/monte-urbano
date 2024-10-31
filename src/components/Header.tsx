@@ -92,12 +92,7 @@ export const Header = ({ alwaysBackground, selected }: IHeaderParams) => {
           >
             Orçamento
           </Link>
-          <Link
-            className="link md:text-md flex cursor-pointer items-center justify-start text-start text-sm font-bold  transition"
-            href={"/trabalhe-conosco"}
-          >
-            Trabalhe Conosco
-          </Link>
+
           <Link
             className="link md:text-md flex cursor-pointer items-center justify-start text-start text-sm font-bold  transition"
             href={"/contato"}
@@ -105,7 +100,7 @@ export const Header = ({ alwaysBackground, selected }: IHeaderParams) => {
             Contato
           </Link>
           <Link
-            className="link md:text-md flex hidden cursor-pointer items-center justify-start text-start text-sm font-bold  transition"
+            className="link md:text-md flex  cursor-pointer items-center justify-start text-start text-sm font-bold  transition"
             href={"/blog"}
           >
             Blog
@@ -119,34 +114,35 @@ export const Header = ({ alwaysBackground, selected }: IHeaderParams) => {
         >
           <div className="container mx-auto flex  w-full max-w-[90vw] flex-row items-center justify-between gap-4 p-2 font-[Helvetica] lg:max-w-[1240px]">
             <div
-              className="grid grow grid-cols-7  items-center justify-between gap-8 font-[fira-sans] text-mublack"
+              className="grid grow grid-cols-5  items-center justify-between gap-4 font-[fira-sans] text-mublack"
               id="menu-options-container"
             >
-              {" "}
-              <Link
-                className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "home" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/"}
-              >
-                Home
-              </Link>
-              <Link
-                className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "empresa" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/empresa"}
-              >
-                A Empresa
-              </Link>
-              <Link
-                className={`link md:text-md flex hidden cursor-pointer items-center justify-center text-center text-sm  ${selected === "area" ? "font-bold text-white" : "text-white"} transition`}
-                href={"area-de-atuacao"}
-              >
-                Área de Atuação
-              </Link>
-              <Link
-                className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "servicos" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/servicos"}
-              >
-                Serviços
-              </Link>
+              <div className="col-span-2 flex items-center justify-around gap-12">
+                <Link
+                  className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "home" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"/"}
+                >
+                  Home
+                </Link>
+                <Link
+                  className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "empresa" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"/empresa"}
+                >
+                  A Empresa
+                </Link>
+                <Link
+                  className={`link md:text-md flex hidden cursor-pointer items-center justify-center text-center text-sm  ${selected === "area" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"area-de-atuacao"}
+                >
+                  Área de Atuação
+                </Link>
+                <Link
+                  className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "servicos" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"/servicos"}
+                >
+                  Serviços
+                </Link>
+              </div>
               <Link
                 className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "home" ? "font-bold text-white" : "text-white"} transition`}
                 href={"/"}
@@ -159,30 +155,27 @@ export const Header = ({ alwaysBackground, selected }: IHeaderParams) => {
                   className=""
                 />
               </Link>
-              <Link
-                className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "orcamento" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/orcamento"}
-              >
-                Orçamento
-              </Link>
-              <Link
-                className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "trabalhe" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/trabalhe-conosco"}
-              >
-                Trabalhe Conosco
-              </Link>
-              <Link
-                className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "contato" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/contato"}
-              >
-                Contato
-              </Link>
-              <Link
-                className={`link md:text-md flex hidden cursor-pointer items-center justify-center text-center text-sm  ${selected === "blog" ? "font-bold text-white" : "text-white"} transition`}
-                href={"/blog"}
-              >
-                Blog
-              </Link>
+              <div className="col-span-2 flex items-center justify-around gap-12">
+                <Link
+                  className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "orcamento" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"/orcamento"}
+                >
+                  Orçamento
+                </Link>
+
+                <Link
+                  className={`link md:text-md flex cursor-pointer items-center justify-center text-center text-sm  ${selected === "contato" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"/contato"}
+                >
+                  Contato
+                </Link>
+                <Link
+                  className={`link md:text-md flex  cursor-pointer items-center justify-center text-center text-sm  ${selected === "blog" ? "font-bold text-white" : "text-white"} transition`}
+                  href={"/blog"}
+                >
+                  Blog
+                </Link>
+              </div>
             </div>
           </div>
         </div>{" "}

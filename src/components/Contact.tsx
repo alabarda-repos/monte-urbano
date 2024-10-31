@@ -52,12 +52,12 @@ export const Contact = () => {
                     felipe@monteurbano.com.br
                   </Link>
                   <Link
-                    href={"mailto:maria@monteurbano.com.br"}
+                    href={"mailto:gabrielli@monteurbano.com.br"}
                     target="_blank"
                     className="flex items-center gap-1"
                   >
                     <IconMail />
-                    maria@monteurbano.com.br
+                    gabrielli@monteurbano.com.br
                   </Link>
                 </div>
 
@@ -69,13 +69,15 @@ export const Contact = () => {
                     <br />
                     CEP: 13561-390
                   </div>
+
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.7924481443415!2d-47.9191835882913!3d-22.019262206673716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b877514c3cb3ed%3A0xf34093238ebda89d!2sRua%20Passeio%20dos%20Ip%C3%AAs%2C%20320%20-%20Parque%20Faber%20Castell%20II%2C%20S%C3%A3o%20Carlos%20-%20SP%2C%2013561-390!5e0!3m2!1spt-BR!2sbr!4v1719410268200!5m2!1spt-BR!2sbr"
-                    width="600"
+                    width="100%"
                     height="450"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
+                    className=""
+                  />
                 </div>
               </div>
             </div>

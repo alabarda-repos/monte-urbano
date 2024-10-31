@@ -30,7 +30,7 @@ export const AlbumCarousel = ({ openAlbum }: IAlbumCarouselParams) => {
           onClick={() => openAlbum("Laudo Técnico de Recursos Naturais")}
         >
           <div className="relative h-full">
-            <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-center text-2xl font-semibold text-white">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 px-2 text-center text-2xl font-semibold text-white">
               <div className="">Laudo Técnico de Recursos Naturais</div>
             </div>
             <Image
@@ -52,7 +52,7 @@ export const AlbumCarousel = ({ openAlbum }: IAlbumCarouselParams) => {
           onClick={() => openAlbum("Levantamento Planialtimétrico")}
         >
           <div className="relative h-full">
-            <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-center text-2xl font-semibold text-white">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 px-2 text-center text-2xl font-semibold text-white">
               <div className="">Levantamento Planialtimétrico</div>
             </div>
             <Image
@@ -72,7 +72,7 @@ export const AlbumCarousel = ({ openAlbum }: IAlbumCarouselParams) => {
           onClick={() => openAlbum("Medição de Vazão de Córrego")}
         >
           <div className="relative h-full">
-            <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-center text-2xl font-semibold text-white">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 px-2 text-center text-2xl font-semibold text-white">
               <div className="">Medição de Vazão de Córrego</div>
             </div>
             <Image
@@ -96,7 +96,7 @@ export const AlbumCarousel = ({ openAlbum }: IAlbumCarouselParams) => {
           }
         >
           <div className="relative h-full">
-            <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-center text-2xl font-semibold text-white">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 px-2 text-center text-2xl font-semibold text-white">
               <div className="">
                 Relatório Técnico Ambiental (RTA) e do Estudo de Impacto de
                 Vizinhança (EIV)

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "fira-sans" !important;
+}
+
+/* Posicionamento das setas para fora do carrossel */
+.splide__arrow {
+  background-color: #000; /* Cor de fundo das setas */
+  color: #fff; /* Cor do ícone das setas */
+  width: 40px; /* Largura das setas */
+  height: 40px; /* Altura das setas */
+  border-radius: 50%; /* Forma arredondada das setas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splide__arrow--prev {
+  left: -50px !important; /* Ajuste a posição da seta anterior */
+}
+
+.splide__arrow--next {
+  right: -50px !important; /* Ajuste a posição da seta próxima */
+}
+
+/* .splide__track {
+  position: relative;
+}
+
+.splide__track::after {
+  height: 100%;
+  width: 1px;
+  box-shadow: 10px 0 5px -2px #888;
+  position: absolute;
+  top: 0;
+  right: 0;
+} */

@@ -1,7 +1,8 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import BlogPostThumbnail from "~/components/BlogPostThumbnail";
+import Link from "next/link";
+import BookThumbnail from "~/components/BookThumbnail";
 import { Footer } from "~/components/Footer";
 import { Header } from "~/components/Header";
 
@@ -54,32 +55,51 @@ const Blog: NextPage = () => {
             className="absolute right-[-270px] top-[250px] z-[2] opacity-80"
           />
         </section>
-
-        <section className="relative mx-auto w-full max-w-[1200px] px-4  py-24">
-          <div className="grid w-full grid-cols-1 place-items-center content-center gap-12 lg:grid-cols-2">
-            <BlogPostThumbnail
-              date="31/07/2024"
+        <section className="relative mx-auto flex w-full max-w-[1200px] flex-col gap-8 px-4  py-24">
+          <div className="grid w-full grid-cols-1 place-items-center content-center gap-12 md:grid-cols-2 lg:grid-cols-3 ">
+            <BookThumbnail
               description={`
-                Entender a vegetação ao seu redor é essencial, não só para a conformidade ambiental mas para a sustentabilidade do seu projeto!
-\n\n
-Descubra o que é o Laudo de Caracterização Vegetal e por que ele é crucial para o seu sucesso.`}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe assumenda voluptate labore atque recusandae, fuga tempore amet? Alias, aperiam quos.
+
+                `}
               image="/images/blog/bp1-1.png"
-              link="/blog/o-que-e-o-laudo-de-caracterizacao-vegetal"
-              title="O que é o Laudo de Caracterização Vegetal?"
+              link="/cartilhas/test"
+              title="Lorem ipsum dolor sit amet consectetu"
               key={1}
             />
-            <BlogPostThumbnail
-              date="17/10/2024"
+
+            <BookThumbnail
               description={`
-               A Certidão de Esgotamento Sanitário é um documento obrigatório que comprova a conformidade do sistema de esgoto de um empreendimento com as normas ambientais e sanitárias. 
-               Sem essa certidão, seu projeto pode enfrentar restrições que afetam o cronograma e o desenvolvimento da obra.
-`}
-              image="/images/blog/MU_ESGOTAMENTO.jpg"
-              link="/blog/certidao-de-esgotamento-sanitario"
-              title="Certidão de Esgotamento Sanitário"
-              key={2}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe assumenda voluptate labore atque recusandae, fuga tempore amet? Alias, aperiam quos.
+
+                `}
+              image="/images/blog/bp1-1.png"
+              link="/cartilhas/o-que-e-o-laudo-de-caracterizacao-vegetal"
+              title="Lorem ipsum dolor sit amet consectetu"
+              key={1}
+            />
+
+            <BookThumbnail
+              description={`
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe assumenda voluptate labore atque recusandae, fuga tempore amet? Alias, aperiam quos.
+
+                `}
+              image="/images/blog/bp1-1.png"
+              link="/cartilhas/o-que-e-o-laudo-de-caracterizacao-vegetal"
+              title="Lorem ipsum dolor sit amet consectetu"
+              key={1}
             />
           </div>
+
+          <Link
+            target="_blank"
+            href={"/contato"}
+            className="mt-12 rounded-md bg-mugreen px-12 py-2 text-center font-semibold text-white transition hover:bg-mugreen/70"
+          >
+            <span>
+              Precisa de uma cartilha personalizada? Entre em contato!
+            </span>
+          </Link>
         </section>
 
         <Footer />

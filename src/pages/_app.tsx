@@ -2,8 +2,9 @@ import { GeistSans } from "geist/font/sans";
 import { type AppType } from "next/app";
 
 import "@splidejs/react-splide/css/sea-green";
-import { IconBrandWhatsapp, IconChevronUp } from "@tabler/icons-react";
+import { IconChevronUp } from "@tabler/icons-react";
 import { useRef } from "react";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 import "~/styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
@@ -18,7 +19,16 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <div className="" ref={topRef}></div>
       <Component {...pageProps} />
       <div className="fixed bottom-[80px] right-4 z-[99]">
-        <button
+        <FloatingWhatsApp
+          accountName="Monte Urbano"
+          phoneNumber="16993731717"
+          chatMessage="Olá, como podemos ajudar?"
+          placeholder="Escreva sua dúvida"
+          className="bottom-[80px]"
+          buttonClassName="!bottom-[80px]"
+          avatar="/svg/logo2.svg"
+        />
+        {/* <button
           className="animate-pulse rounded-full p-1 text-emerald-500"
           onClick={() => {
             window.open(
@@ -28,9 +38,9 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           }}
         >
           <IconBrandWhatsapp size={40} />
-        </button>
+        </button> */}
       </div>
-      <div className="fixed bottom-5 right-4 z-[99]">
+      <div className="fixed bottom-5 right-[2.2rem] z-[99]">
         <button
           className="animate-pulse rounded-full p-1 text-emerald-500"
           onClick={scrollTop}

@@ -79,6 +79,16 @@ Descubra o que é o Laudo de Caracterização Vegetal e por que ele é crucial p
               title="Certidão de Esgotamento Sanitário"
               key={2}
             />
+
+            <BlogPostThumbnail
+              date="31/10/2024"
+              description={`O PRAD é essencial para reverter danos ambientais causados por atividades humanas, como mineração, construção ou desmatamento. 
+              Ele visa restaurar áreas afetadas, promovendo o equilíbrio ecológico e a sustentabilidade.`}
+              image="/images/blog/MU_PRAD.jpg"
+              link="/blog/prad"
+              title="Plano de Recuperação de Áreas Degradadas"
+              key={3}
+            />
           </div>
         </section>
 
